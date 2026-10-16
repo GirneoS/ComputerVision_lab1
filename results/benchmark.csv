@@ -1,0 +1,3 @@
+implementation,minimum_ms,median_ms,mean_ms,stdev_ms,repeats
+OpenCV,0.064542,0.066250,0.071595,0.013531,7
+Native Python,78.773541,78.846042,78.957554,0.183927,7

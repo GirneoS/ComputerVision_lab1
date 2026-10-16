@@ -1,0 +1,53 @@
+{
+  "variant": 7,
+  "operation": "binary erosion",
+  "kernel": "3x3 rectangle",
+  "input": "generated deterministic demo",
+  "image_width": 640,
+  "image_height": 480,
+  "threshold": 127,
+  "iterations": 1,
+  "repeats": 7,
+  "border_value": 255,
+  "exact_match": true,
+  "different_pixels": 0,
+  "foreground_pixels_before": 116668,
+  "foreground_pixels_after": 106417,
+  "opencv": {
+    "minimum_ms": 0.064542,
+    "median_ms": 0.06625,
+    "mean_ms": 0.07159499999999999,
+    "stdev_ms": 0.01353067865471436,
+    "samples_ms": [
+      0.104583,
+      0.067958,
+      0.06525,
+      0.064666,
+      0.064542,
+      0.06625,
+      0.067916
+    ]
+  },
+  "native_python": {
+    "minimum_ms": 78.773541,
+    "median_ms": 78.846042,
+    "mean_ms": 78.95755357142856,
+    "stdev_ms": 0.18392657142446475,
+    "samples_ms": [
+      78.773541,
+      79.02925,
+      78.808959,
+      79.169917,
+      78.846042,
+      78.808041,
+      79.267125
+    ]
+  },
+  "opencv_speedup": 1102.8361417896301,
+  "environment": {
+    "python": "3.12.14",
+    "opencv": "4.14.0",
+    "numpy": "2.5.4",
+    "platform": "macOS-26.2-arm64-arm-64bit"
+  }
+}
